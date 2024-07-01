@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BrainTrain2024Storyboards
 //
-//  Created by Maÿarinn Tindómë on 7/1/24.
+//  Created by Karina Osadchaya on 7/1/24.
 //
 
 import UIKit
