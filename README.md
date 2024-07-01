@@ -6,5 +6,7 @@ This app is designed for practicing mental arithmetic. Firstly I'm going to code
 
 ## Difficulty Levels
 
+### Multiplication
+
 1. 1x1
 2. 1x2, 2x1
