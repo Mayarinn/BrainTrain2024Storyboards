@@ -28,8 +28,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-td-Lcg">
-                                <rect key="frame" x="174" y="322" width="67" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-td-Lcg">
+                                <rect key="frame" x="173.5" y="551" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                             </button>
@@ -43,6 +43,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="k2X-Kr-8Hd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0ub-Ny-sNh"/>
+                            <constraint firstItem="NHh-td-Lcg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.25" id="3uT-dP-GL1"/>
                             <constraint firstItem="ZNO-az-bdY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="80f-hn-Z57"/>
                             <constraint firstItem="k2X-Kr-8Hd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.5" id="8cB-2u-05x"/>
                             <constraint firstItem="NHh-td-Lcg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dn4-yo-D1H"/>
