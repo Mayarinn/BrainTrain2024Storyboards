@@ -28,9 +28,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-td-Lcg">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-td-Lcg">
                                 <rect key="frame" x="174" y="322" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                             </button>
@@ -46,6 +45,7 @@
                             <constraint firstItem="k2X-Kr-8Hd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0ub-Ny-sNh"/>
                             <constraint firstItem="ZNO-az-bdY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="80f-hn-Z57"/>
                             <constraint firstItem="k2X-Kr-8Hd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.5" id="8cB-2u-05x"/>
+                            <constraint firstItem="NHh-td-Lcg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dn4-yo-D1H"/>
                             <constraint firstItem="jjK-Gd-Guq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="gwQ-IN-M3J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZNO-az-bdY" secondAttribute="trailing" constant="50" id="p9K-gP-5tz"/>
                             <constraint firstItem="jjK-Gd-Guq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="qmG-Vs-f2d"/>
