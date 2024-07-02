@@ -23,10 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjK-Gd-Guq">
-                                <rect key="frame" x="50" y="442.5" width="50" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="1rB-XI-U32"/>
-                                </constraints>
+                                <rect key="frame" x="50" y="442.5" width="152" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,10 +34,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZNO-az-bdY">
-                                <rect key="frame" x="110" y="436" width="254" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="u8V-cc-OJc"/>
-                                </constraints>
+                                <rect key="frame" x="212" y="436" width="152" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -50,6 +44,7 @@
                         <constraints>
                             <constraint firstItem="k2X-Kr-8Hd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0ub-Ny-sNh"/>
                             <constraint firstItem="NHh-td-Lcg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.25" id="3uT-dP-GL1"/>
+                            <constraint firstItem="jjK-Gd-Guq" firstAttribute="width" secondItem="ZNO-az-bdY" secondAttribute="width" id="7mD-5B-Emo"/>
                             <constraint firstItem="ZNO-az-bdY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="80f-hn-Z57"/>
                             <constraint firstItem="k2X-Kr-8Hd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.5" id="8cB-2u-05x"/>
                             <constraint firstItem="ZNO-az-bdY" firstAttribute="leading" secondItem="jjK-Gd-Guq" secondAttribute="trailing" constant="10" id="bZI-Ki-dWC"/>
