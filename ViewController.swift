@@ -19,6 +19,13 @@ class ViewController: UIViewController {
         TitleLabel.text = ""
         TaskLabel.textAlignment = .right
     }
+    
+    func createTask() -> String {
+        var TaskText: String
+        TaskText = "\(Int.random(in: 1...9))x\(Int.random(in: 1...9))"
+        
+        return TaskText
+    }
 
 
 }
