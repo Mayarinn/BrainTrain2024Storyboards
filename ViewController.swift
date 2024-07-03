@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         TitleLabel.text = ""
         TaskLabel.textAlignment = .right
+        TaskLabel.text = createTask()
     }
     
     func createTask() -> String {
