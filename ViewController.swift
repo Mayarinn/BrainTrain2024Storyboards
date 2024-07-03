@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var TitleLabel: UILabel!
+    @IBOutlet weak var TaskLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
