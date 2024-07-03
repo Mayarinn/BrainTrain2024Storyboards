@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var TitleLabel: UILabel!
     @IBOutlet weak var TaskLabel: UILabel!
     @IBOutlet weak var AnswerTextfield: UITextField!
+    @IBOutlet weak var CheckButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

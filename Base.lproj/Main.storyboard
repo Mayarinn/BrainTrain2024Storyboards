@@ -56,6 +56,7 @@
                     </view>
                     <connections>
                         <outlet property="AnswerTextfield" destination="ZNO-az-bdY" id="Rlc-1Q-jcI"/>
+                        <outlet property="CheckButton" destination="NHh-td-Lcg" id="LyP-gy-JRd"/>
                         <outlet property="TaskLabel" destination="jjK-Gd-Guq" id="OLM-2c-7vF"/>
                         <outlet property="TitleLabel" destination="k2X-Kr-8Hd" id="Ldg-Kl-g0F"/>
                     </connections>
