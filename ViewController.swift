@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     func createTask() -> String {
         var TaskText: String = ""
         var a, b: Int
+        a = Int.random(in: 1...9)
         
         return TaskText
     }
