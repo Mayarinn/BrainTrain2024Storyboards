@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         a = Int.random(in: 1...9)
         b = Int.random(in: 1...9)
         Answer = a*b
+        TaskText = "\(a)x\(b)"
         
         return TaskText
     }
