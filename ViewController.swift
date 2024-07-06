@@ -14,16 +14,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var AnswerTextfield: UITextField!
     @IBOutlet weak var CheckButton: UIButton!
     
+    var Answer: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         TitleLabel.text = ""
         TaskLabel.textAlignment = .right
         TaskLabel.text = createTask()
+        AnswerTextfield.placeholder = String(Answer)
     }
     
     func createTask() -> String {
-        var TaskText: String
-        TaskText = "\(Int.random(in: 1...9))x\(Int.random(in: 1...9))"
+        var TaskText: String = ""
+        var a, b: Int
+        a = Int.random(in: 1...9)
+        b = Int.random(in: 1...9)
+        Answer = a*b
+        TaskText = "\(a)x\(b)"
         
         return TaskText
     }
