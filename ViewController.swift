@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         var a, b: Int
         a = Int.random(in: 1...9)
         b = Int.random(in: 1...9)
+        Answer = a*b
         
         return TaskText
     }
