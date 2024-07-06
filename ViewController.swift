@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var AnswerTextfield: UITextField!
     @IBOutlet weak var CheckButton: UIButton!
     
+    var Answer: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         TitleLabel.text = ""
