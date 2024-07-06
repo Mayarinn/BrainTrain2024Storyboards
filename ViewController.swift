@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     
     func createTask() -> String {
         var TaskText: String = ""
+        var a, b: Int
         
         return TaskText
     }
