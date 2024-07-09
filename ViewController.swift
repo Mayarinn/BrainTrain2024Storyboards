@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         if checkAnswer(ans: AnswerTextfield.text ?? "0"){
             TitleLabel.text = "Right. Next One"
             TaskLabel.text = createTask()
+            AnswerTextfield.text = ""
         } else {
             TitleLabel.text = "Wrong. Try Again"
         }
