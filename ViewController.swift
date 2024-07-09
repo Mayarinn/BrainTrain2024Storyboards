@@ -30,6 +30,7 @@ class ViewController: UIViewController {
             AnswerTextfield.text = ""
         } else {
             TitleLabel.text = "Wrong. Try Again"
+            AnswerTextfield.text = ""
         }
     }
     
