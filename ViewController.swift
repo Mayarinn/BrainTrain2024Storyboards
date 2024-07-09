@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         TitleLabel.text = ""
         TaskLabel.textAlignment = .right
         TaskLabel.text = createTask()
-        AnswerTextfield.placeholder = String(Answer)
     }
     
     func createTask() -> String {
