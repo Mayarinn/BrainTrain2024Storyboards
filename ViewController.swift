@@ -23,6 +23,9 @@ class ViewController: UIViewController {
         TaskLabel.text = createTask()
     }
     
+    @IBAction func buttonClicked(_ sender: Any) {
+    }
+    
     func createTask() -> String {
         var TaskText: String = ""
         var a, b: Int
