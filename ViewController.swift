@@ -36,7 +36,12 @@ class ViewController: UIViewController {
     
     func checkAnswer(ans: String) -> Bool {
         var ifAnswerRight: Bool = false
-            
+        if Int(ans) == Answer {
+            ifAnswerRight = true
+        } else {
+            ifAnswerRight = false
+        }
+        
         return ifAnswerRight
     }
 
