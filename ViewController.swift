@@ -34,10 +34,10 @@ class ViewController: UIViewController {
         return TaskText
     }
     
-    func checkAnswer() {
-        
+    func checkAnswer(ans: String) -> Bool {
+        var ifAnswerRight: Bool = false
+            
+        return ifAnswerRight
     }
 
-
 }
-
