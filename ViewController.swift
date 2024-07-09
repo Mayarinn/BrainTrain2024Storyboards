@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         
         return TaskText
     }
+    
+    func checkAnswer() {
+        
+    }
 
 
 }
