@@ -21,7 +21,17 @@ class ViewController: UIViewController {
         TitleLabel.text = ""
         TaskLabel.textAlignment = .right
         TaskLabel.text = createTask()
-        AnswerTextfield.placeholder = String(Answer)
+    }
+    
+    @IBAction func buttonClicked(_ sender: Any) {
+        if checkAnswer(ans: AnswerTextfield.text ?? "0"){
+            TitleLabel.text = "Right. Next One"
+            TaskLabel.text = createTask()
+            AnswerTextfield.text = ""
+        } else {
+            TitleLabel.text = "Wrong. Try Again"
+            AnswerTextfield.text = ""
+        }
     }
     
     func createTask() -> String {
@@ -34,7 +44,16 @@ class ViewController: UIViewController {
         
         return TaskText
     }
-
+    
+    func checkAnswer(ans: String) -> Bool {
+        var ifAnswerRight: Bool = false
+        if Int(ans) == Answer {
+            ifAnswerRight = true
+        } else {
+            ifAnswerRight = false
+        }
+        
+        return ifAnswerRight
+    }
 
 }
-
