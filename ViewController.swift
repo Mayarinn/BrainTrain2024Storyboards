@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     @IBAction func buttonClicked(_ sender: Any) {
         if checkAnswer(ans: AnswerTextfield.text ?? "0"){
             TitleLabel.text = "Right"
+        } else {
+            TitleLabel.text = "Wrong. Try Again"
         }
     }
     
