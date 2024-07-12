@@ -90,6 +90,9 @@
                             <constraint firstItem="kmM-ut-bKX" firstAttribute="top" secondItem="Q9w-PL-wga" secondAttribute="top" constant="50" id="zzW-n4-h7G"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="TitleLabel" destination="kmM-ut-bKX" id="AB9-np-Rin"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bqh-jn-3Vj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
