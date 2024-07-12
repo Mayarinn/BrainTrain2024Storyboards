@@ -4,5 +4,12 @@
 //
 //  Created by Karina Osadchaya on 7/12/24.
 //
+import UIKit
 
-import Foundation
+class ChangeModeViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+}
