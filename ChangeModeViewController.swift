@@ -9,6 +9,7 @@ import UIKit
 class ChangeModeViewController: UIViewController {
     
     @IBOutlet weak var TitleLabel: UILabel!
+    @IBOutlet weak var MultiplyLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
