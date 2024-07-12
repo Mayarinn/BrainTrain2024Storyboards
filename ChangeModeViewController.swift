@@ -14,6 +14,7 @@ class ChangeModeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         TitleLabel.text = "Change Mode"
+        MultiplyLabel.text = "Multiplication"
     }
     
 }
