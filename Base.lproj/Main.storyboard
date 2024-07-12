@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="37.681159420289859" y="67.633928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Change Mode View Controller-->
         <scene sceneID="3uV-la-veW">
             <objects>
-                <viewController id="1Q5-oI-ahb" sceneMemberID="viewController">
+                <viewController id="1Q5-oI-ahb" userLabel="Change Mode View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i4k-Vr-j4F">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
