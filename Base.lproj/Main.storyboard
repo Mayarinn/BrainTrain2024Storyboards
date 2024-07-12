@@ -82,15 +82,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tzx-kZ-gRa">
-                                <rect key="frame" x="128" y="282" width="110" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tzx-kZ-gRa">
+                                <rect key="frame" x="50" y="165" width="314" height="647"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q9w-PL-wga"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="kmM-ut-bKX" firstAttribute="centerX" secondItem="i4k-Vr-j4F" secondAttribute="centerX" id="325-xm-yrL"/>
+                            <constraint firstItem="Q9w-PL-wga" firstAttribute="bottom" secondItem="tzx-kZ-gRa" secondAttribute="bottom" constant="50" id="eqN-f3-TNy"/>
+                            <constraint firstItem="Q9w-PL-wga" firstAttribute="trailing" secondItem="tzx-kZ-gRa" secondAttribute="trailing" constant="50" id="jTI-Gp-91G"/>
+                            <constraint firstItem="tzx-kZ-gRa" firstAttribute="leading" secondItem="Q9w-PL-wga" secondAttribute="leading" constant="50" id="nGA-FI-QxY"/>
+                            <constraint firstItem="tzx-kZ-gRa" firstAttribute="top" secondItem="kmM-ut-bKX" secondAttribute="bottom" constant="50" id="w15-iz-CkT"/>
                             <constraint firstItem="kmM-ut-bKX" firstAttribute="top" secondItem="Q9w-PL-wga" secondAttribute="top" constant="50" id="zzW-n4-h7G"/>
                         </constraints>
                     </view>
