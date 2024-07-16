@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Multiply1x1Controller: UIViewController {
 
     @IBOutlet weak var TitleLabel: UILabel!
     @IBOutlet weak var TaskLabel: UILabel!
