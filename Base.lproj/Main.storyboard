@@ -11,7 +11,7 @@
         <!--Multiply 1x1 Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Multiply1x1Controller" id="BYZ-38-t0r" customClass="Multiply1x1Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Multiply1x1Controller" id="BYZ-38-t0r" customClass="Multiply1x1Controller" customModule="BrainTrain2024Storyboards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
