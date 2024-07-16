@@ -86,7 +86,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="tzx-kZ-gRa">
-                                <rect key="frame" x="50" y="174" width="314" height="56"/>
+                                <rect key="frame" x="50" y="174" width="314" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNe-nr-1yl">
                                         <rect key="frame" x="0.0" y="0.0" width="41.5" height="25"/>
@@ -98,7 +98,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWu-ER-rt5">
-                                        <rect key="frame" x="0.0" y="25" width="44" height="31"/>
+                                        <rect key="frame" x="0.0" y="25" width="44" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="S0h-eS-xOA"/>
                                         </constraints>
@@ -117,7 +117,6 @@
                         <viewLayoutGuide key="safeArea" id="Q9w-PL-wga"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Q9w-PL-wga" firstAttribute="bottom" secondItem="tzx-kZ-gRa" secondAttribute="bottom" constant="50" id="eqN-f3-TNy"/>
                             <constraint firstItem="Q9w-PL-wga" firstAttribute="trailing" secondItem="tzx-kZ-gRa" secondAttribute="trailing" constant="50" id="jTI-Gp-91G"/>
                             <constraint firstItem="tzx-kZ-gRa" firstAttribute="leading" secondItem="Q9w-PL-wga" secondAttribute="leading" constant="50" id="nGA-FI-QxY"/>
                             <constraint firstItem="kmM-ut-bKX" firstAttribute="centerX" secondItem="i4k-Vr-j4F" secondAttribute="centerX" id="rVY-R2-mFX"/>
