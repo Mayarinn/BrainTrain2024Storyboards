@@ -111,6 +111,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="kWu-ER-rt5" firstAttribute="top" secondItem="qNe-nr-1yl" secondAttribute="bottom" id="Dwo-27-QCx"/>
+                                    <constraint firstItem="qNe-nr-1yl" firstAttribute="width" secondItem="kWu-ER-rt5" secondAttribute="width" multiplier="0.943182" id="GKX-i1-84Y"/>
                                 </constraints>
                             </stackView>
                         </subviews>
