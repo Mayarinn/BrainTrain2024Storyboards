@@ -18,4 +18,8 @@ class ChangeModeViewController: UIViewController {
         MultiplyLabel.text = "Multiplication"
     }
     
+    @IBAction func multiply1x1ButtonClicked(_ sender: Any) {
+        
+    }
+    
 }

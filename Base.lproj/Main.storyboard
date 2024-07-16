@@ -98,6 +98,9 @@
                                         <rect key="frame" x="0.0" y="20.5" width="67" height="617.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="multiply1x1ButtonClicked:" destination="1Q5-oI-ahb" eventType="touchUpInside" id="gSg-MS-Q3w"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
