@@ -106,6 +106,9 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="kWu-ER-rt5" firstAttribute="top" secondItem="qNe-nr-1yl" secondAttribute="bottom" id="Dwo-27-QCx"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q9w-PL-wga"/>
