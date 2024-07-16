@@ -89,13 +89,16 @@
                                 <rect key="frame" x="50" y="174" width="314" height="638"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNe-nr-1yl">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="613"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWu-ER-rt5">
-                                        <rect key="frame" x="0.0" y="20.5" width="67" height="617.5"/>
+                                    <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWu-ER-rt5">
+                                        <rect key="frame" x="0.0" y="613" width="67" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="S0h-eS-xOA"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                         <connections>
