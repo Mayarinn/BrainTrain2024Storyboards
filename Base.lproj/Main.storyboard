@@ -31,7 +31,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-td-Lcg">
                                 <rect key="frame" x="173.5" y="437.5" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                    <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J39-QH-1nb"/>
                                 </connections>
@@ -86,29 +88,40 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="tzx-kZ-gRa">
-                                <rect key="frame" x="50" y="174" width="314" height="638"/>
+                                <rect key="frame" x="50" y="174" width="314" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNe-nr-1yl">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="bUB-Kl-8IR"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWu-ER-rt5">
-                                        <rect key="frame" x="0.0" y="20.5" width="67" height="617.5"/>
+                                    <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWu-ER-rt5">
+                                        <rect key="frame" x="0.0" y="25" width="44" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="S0h-eS-xOA"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="1x1">
+                                            <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="multiply1x1ButtonClicked:" destination="1Q5-oI-ahb" eventType="touchUpInside" id="gSg-MS-Q3w"/>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="kWu-ER-rt5" firstAttribute="top" secondItem="qNe-nr-1yl" secondAttribute="bottom" id="Dwo-27-QCx"/>
+                                    <constraint firstItem="qNe-nr-1yl" firstAttribute="width" secondItem="kWu-ER-rt5" secondAttribute="width" multiplier="0.943182" id="GKX-i1-84Y"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q9w-PL-wga"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Q9w-PL-wga" firstAttribute="bottom" secondItem="tzx-kZ-gRa" secondAttribute="bottom" constant="50" id="eqN-f3-TNy"/>
                             <constraint firstItem="Q9w-PL-wga" firstAttribute="trailing" secondItem="tzx-kZ-gRa" secondAttribute="trailing" constant="50" id="jTI-Gp-91G"/>
                             <constraint firstItem="tzx-kZ-gRa" firstAttribute="leading" secondItem="Q9w-PL-wga" secondAttribute="leading" constant="50" id="nGA-FI-QxY"/>
                             <constraint firstItem="kmM-ut-bKX" firstAttribute="centerX" secondItem="i4k-Vr-j4F" secondAttribute="centerX" id="rVY-R2-mFX"/>
@@ -130,6 +143,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

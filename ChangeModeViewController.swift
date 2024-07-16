@@ -16,7 +16,6 @@ class ChangeModeViewController: UIViewController {
         super.viewDidLoad()
         TitleLabel.text = "Change Mode"
         MultiplyLabel.text = "Multiplication"
-        Multiply1x1Button.titleLabel?.text = "1x1"
     }
     
     @IBAction func multiply1x1ButtonClicked(_ sender: Any) {
