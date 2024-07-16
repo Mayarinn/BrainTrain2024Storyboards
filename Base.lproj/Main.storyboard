@@ -103,7 +103,7 @@
                                             <constraint firstAttribute="height" constant="25" id="S0h-eS-xOA"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="1x1"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="1x1"/>
                                         <connections>
                                             <action selector="multiply1x1ButtonClicked:" destination="1Q5-oI-ahb" eventType="touchUpInside" id="gSg-MS-Q3w"/>
                                         </connections>
