@@ -98,12 +98,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWu-ER-rt5">
-                                        <rect key="frame" x="0.0" y="25" width="67" height="31"/>
+                                        <rect key="frame" x="0.0" y="25" width="44" height="31"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="S0h-eS-xOA"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="1x1"/>
                                         <connections>
                                             <action selector="multiply1x1ButtonClicked:" destination="1Q5-oI-ahb" eventType="touchUpInside" id="gSg-MS-Q3w"/>
                                         </connections>
