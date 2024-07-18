@@ -27,7 +27,8 @@ class ChangeModeViewController: UIViewController {
     }
     
     @IBAction func multiply2x1ButtonClicked(_ sender: Any) {
-    
+        let targetController = MyStoryboard.instantiateViewController(withIdentifier: "Multiply2x1Controller") as! Multiply2x1Controller
+        self.present(targetController, animated: true)
     }
     
 }
