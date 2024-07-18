@@ -13,6 +13,8 @@ class ChangeModeViewController: UIViewController {
     @IBOutlet weak var Multiply1x1Button: UIButton!
     @IBOutlet weak var Multiply2x1Button: UIButton!
     
+    let MyStoryboard = UIStoryboard(name: "Main", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         TitleLabel.text = "Change Mode"
@@ -20,8 +22,12 @@ class ChangeModeViewController: UIViewController {
     }
     
     @IBAction func multiply1x1ButtonClicked(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let targetController = storyboard.instantiateViewController(withIdentifier: "Multiply1x1Controller") as! Multiply1x1Controller
+        let targetController = MyStoryboard.instantiateViewController(withIdentifier: "Multiply1x1Controller") as! Multiply1x1Controller
+        self.present(targetController, animated: true)
+    }
+    
+    @IBAction func multiply2x1ButtonClicked(_ sender: Any) {
+        let targetController = MyStoryboard.instantiateViewController(withIdentifier: "Multiply2x1Controller") as! Multiply2x1Controller
         self.present(targetController, animated: true)
     }
     

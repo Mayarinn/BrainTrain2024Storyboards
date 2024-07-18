@@ -70,6 +70,21 @@
             </objects>
             <point key="canvasLocation" x="37.681159420289859" y="67.633928571428569"/>
         </scene>
+        <!--Multiply 2x1 Controller-->
+        <scene sceneID="5TL-DQ-Fcm">
+            <objects>
+                <viewController storyboardIdentifier="Multiply2x1Controller" id="Y6s-Gq-BA7" customClass="Multiply2x1Controller" customModule="BrainTrain2024Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nM3-6T-IJp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="SEl-ux-TgQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6b-ya-mhO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="790" y="68"/>
+        </scene>
         <!--Change Mode View Controller-->
         <scene sceneID="3uV-la-veW">
             <objects>
@@ -118,6 +133,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="2x1">
                                             <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="multiply2x1ButtonClicked:" destination="1Q5-oI-ahb" eventType="touchUpInside" id="taw-wJ-Oc9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
