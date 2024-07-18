@@ -11,6 +11,7 @@ class ChangeModeViewController: UIViewController {
     @IBOutlet weak var TitleLabel: UILabel!
     @IBOutlet weak var MultiplyLabel: UILabel!
     @IBOutlet weak var Multiply1x1Button: UIButton!
+    @IBOutlet weak var Multiply2x1Button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
