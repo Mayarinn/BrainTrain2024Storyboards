@@ -70,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="37.681159420289859" y="67.633928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Multiply 2x1 Controller-->
         <scene sceneID="5TL-DQ-Fcm">
             <objects>
-                <viewController id="Y6s-Gq-BA7" sceneMemberID="viewController">
+                <viewController id="Y6s-Gq-BA7" customClass="Multiply2x1Controller" customModule="BrainTrain2024Storyboards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nM3-6T-IJp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
