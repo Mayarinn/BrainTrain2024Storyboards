@@ -88,7 +88,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="tzx-kZ-gRa">
-                                <rect key="frame" x="50" y="174" width="314" height="50"/>
+                                <rect key="frame" x="50" y="174" width="314" height="81"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNe-nr-1yl">
                                         <rect key="frame" x="0.0" y="0.0" width="41.5" height="25"/>
@@ -111,6 +111,11 @@
                                         <connections>
                                             <action selector="multiply1x1ButtonClicked:" destination="1Q5-oI-ahb" eventType="touchUpInside" id="gSg-MS-Q3w"/>
                                         </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9r-8G-gIQ">
+                                        <rect key="frame" x="0.0" y="50" width="67" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                     </button>
                                 </subviews>
                                 <constraints>
