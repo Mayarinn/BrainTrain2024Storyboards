@@ -121,6 +121,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="E9r-8G-gIQ" firstAttribute="height" secondItem="kWu-ER-rt5" secondAttribute="height" multiplier="1.24" id="0hT-BQ-2lP" userLabel="2x1.height = Multiply 1x1 Button.height"/>
                                     <constraint firstItem="kWu-ER-rt5" firstAttribute="top" secondItem="qNe-nr-1yl" secondAttribute="bottom" id="Dwo-27-QCx"/>
                                     <constraint firstItem="qNe-nr-1yl" firstAttribute="width" secondItem="kWu-ER-rt5" secondAttribute="width" multiplier="0.943182" id="GKX-i1-84Y" userLabel="Multiply Label.width = Multiply 1x1 Button.width"/>
                                     <constraint firstItem="E9r-8G-gIQ" firstAttribute="width" secondItem="qNe-nr-1yl" secondAttribute="width" multiplier="1.10843" id="LBO-N1-ErU" userLabel="2x1.width = Multiply Label.width"/>
