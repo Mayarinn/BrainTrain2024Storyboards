@@ -118,6 +118,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="2x1">
                                             <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="multiply2x1ButtonClicked:" destination="1Q5-oI-ahb" eventType="touchUpInside" id="taw-wJ-Oc9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

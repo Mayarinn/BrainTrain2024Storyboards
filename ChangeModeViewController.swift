@@ -25,4 +25,8 @@ class ChangeModeViewController: UIViewController {
         self.present(targetController, animated: true)
     }
     
+    @IBAction func multiply2x1ButtonClicked(_ sender: Any) {
+    
+    }
+    
 }
