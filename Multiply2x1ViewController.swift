@@ -5,4 +5,8 @@
 //  Created by Karina Osadchaya on 7/18/24.
 //
 
-import Foundation
+import UIKit
+
+class Multiply2x1Controller: UIViewController {
+    
+}
