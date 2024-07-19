@@ -91,9 +91,8 @@
                                     <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vto-K6-Yes">
-                                <rect key="frame" x="88" y="320" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vto-K6-Yes">
+                                <rect key="frame" x="50" y="329.5" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -103,9 +102,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="XhZ-Sv-RpW" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" id="3cj-zt-sK1"/>
+                            <constraint firstItem="Vto-K6-Yes" firstAttribute="leading" secondItem="SEl-ux-TgQ" secondAttribute="leading" constant="50" id="68P-w0-yOK"/>
                             <constraint firstItem="J6V-60-pAd" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" multiplier="0.5" id="7xr-0Z-s2M"/>
                             <constraint firstItem="XhZ-Sv-RpW" firstAttribute="centerX" secondItem="SEl-ux-TgQ" secondAttribute="centerX" id="JFc-zq-9Wu"/>
+                            <constraint firstItem="SEl-ux-TgQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vto-K6-Yes" secondAttribute="trailing" symbolic="YES" id="WGI-Yc-kEd"/>
                             <constraint firstItem="J6V-60-pAd" firstAttribute="centerX" secondItem="SEl-ux-TgQ" secondAttribute="centerX" id="dlE-11-ueB"/>
+                            <constraint firstItem="Vto-K6-Yes" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" multiplier="0.75" id="nTP-XE-Eds"/>
                         </constraints>
                     </view>
                 </viewController>
