@@ -78,9 +78,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6V-60-pAd">
-                                <rect key="frame" x="186" y="209" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6V-60-pAd">
+                                <rect key="frame" x="186" y="216" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -88,6 +87,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SEl-ux-TgQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="J6V-60-pAd" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" multiplier="0.5" id="7xr-0Z-s2M"/>
+                            <constraint firstItem="J6V-60-pAd" firstAttribute="centerX" secondItem="SEl-ux-TgQ" secondAttribute="centerX" id="dlE-11-ueB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X6b-ya-mhO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
