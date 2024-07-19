@@ -84,9 +84,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhZ-Sv-RpW">
-                                <rect key="frame" x="174" y="433" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhZ-Sv-RpW">
+                                <rect key="frame" x="173.5" y="437.5" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button">
                                     <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
@@ -96,7 +95,9 @@
                         <viewLayoutGuide key="safeArea" id="SEl-ux-TgQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="XhZ-Sv-RpW" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" id="3cj-zt-sK1"/>
                             <constraint firstItem="J6V-60-pAd" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" multiplier="0.5" id="7xr-0Z-s2M"/>
+                            <constraint firstItem="XhZ-Sv-RpW" firstAttribute="centerX" secondItem="SEl-ux-TgQ" secondAttribute="centerX" id="JFc-zq-9Wu"/>
                             <constraint firstItem="J6V-60-pAd" firstAttribute="centerX" secondItem="SEl-ux-TgQ" secondAttribute="centerX" id="dlE-11-ueB"/>
                         </constraints>
                     </view>
