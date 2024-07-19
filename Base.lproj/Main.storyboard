@@ -92,13 +92,13 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vto-K6-Yes">
-                                <rect key="frame" x="50" y="329.5" width="42" height="21"/>
+                                <rect key="frame" x="50" y="329.5" width="41.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwc-Yz-dc7">
-                                <rect key="frame" x="230" y="323" width="97" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwc-Yz-dc7">
+                                <rect key="frame" x="295" y="323" width="32" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -109,8 +109,8 @@
                             <constraint firstItem="XhZ-Sv-RpW" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" id="3cj-zt-sK1"/>
                             <constraint firstItem="Vto-K6-Yes" firstAttribute="leading" secondItem="SEl-ux-TgQ" secondAttribute="leading" constant="50" id="68P-w0-yOK"/>
                             <constraint firstItem="J6V-60-pAd" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" multiplier="0.5" id="7xr-0Z-s2M"/>
+                            <constraint firstItem="dwc-Yz-dc7" firstAttribute="leading" secondItem="Vto-K6-Yes" secondAttribute="trailing" constant="203.5" id="IvQ-ka-txW" userLabel="Round Style Text Field.leading = Label.trailing + 10"/>
                             <constraint firstItem="XhZ-Sv-RpW" firstAttribute="centerX" secondItem="SEl-ux-TgQ" secondAttribute="centerX" id="JFc-zq-9Wu"/>
-                            <constraint firstItem="SEl-ux-TgQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vto-K6-Yes" secondAttribute="trailing" symbolic="YES" id="WGI-Yc-kEd"/>
                             <constraint firstItem="J6V-60-pAd" firstAttribute="centerX" secondItem="SEl-ux-TgQ" secondAttribute="centerX" id="dlE-11-ueB"/>
                             <constraint firstItem="dwc-Yz-dc7" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" multiplier="0.75" id="hdZ-Eh-JN6"/>
                             <constraint firstItem="Vto-K6-Yes" firstAttribute="centerY" secondItem="SEl-ux-TgQ" secondAttribute="centerY" multiplier="0.75" id="nTP-XE-Eds"/>
